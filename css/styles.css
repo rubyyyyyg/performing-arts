@@ -350,13 +350,13 @@ nav ul li {
   list-style-type: none;
 }
 nav ul li a {
-  color: #f0c997;
+  color: white;
   text-decoration: none;
   display: block;
   padding: 0.5rem 10px;
 }
 nav ul li.active a {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #f5e1ba;
   color: #1f130b;
 }
 
@@ -364,7 +364,7 @@ nav ul li.active a {
 main h1 {
   padding: 1rem 10px 0.5rem 10px;
   font-size: 1.5rem;
-  color: #f0c997;
+  color: white;
   font-weight: 300;
   text-align: center;
 }
@@ -381,17 +381,17 @@ div#cards {
   text-align: center;
 }
 
-div#individualCard {
+div div {
   margin: 10px 2%;
   flex-basis: 96%;
   padding: 10px;
-  background-color: #f0c997;
+  background-color: #f5e1ba;
 }
-div#individualCard img {
+div div img {
   max-width: 200px;
 }
-div#individualCard p {
-  color: white;
+div div p {
+  color: #1f130b;
 }
 
 /* footer */
@@ -402,12 +402,12 @@ div#individualCard p {
 footer {
   font-size: 0.85rem;
   padding: 1rem 10px;
-  color: gray;
+  color: white;
   text-align: center;
   line-height: 150%;
 }
 footer a {
-  color: gray;
+  color: white;
 }
 
 @media only screen and (min-width: 35rem) {
@@ -421,7 +421,7 @@ footer a {
     margin: 10px 0;
   }
   nav ul li a:hover {
-    text-decoration: underline 2px #2d6e50;
+    text-decoration: underline 2px #f5e1ba;
   }
   header img {
     width: 50px;

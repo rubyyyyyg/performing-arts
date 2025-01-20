@@ -61,7 +61,7 @@ nav {
         padding: .5rem $gutter;
     }
     ul li.active a {
-        background-color: rgba(255,255,255,0.8);
+        background-color: $accentColor;
         color: $primaryColor;
     }
 }
@@ -89,16 +89,16 @@ div#cards {
     text-align: center;
 }
 
-div#individualCard {
+div div {
     margin: 10px 2%;
     flex-basis: 96%;
     padding: 10px;
     img {
         max-width: 200px;
     }
-    background-color: $secondaryColor;
+    background-color: $accentColor;
     p {
-        color: white;
+        color: $primaryColor;
     }
 }
 
@@ -110,8 +110,8 @@ div#individualCard {
 footer {
     font-size: .85rem;
     padding: 1rem $gutter;
-    color: gray;
+    color: $secondaryColor;
     text-align: center;
     line-height: $leading;
-    a {color: gray;}
+    a {color: $secondaryColor;}
 }// end footer
