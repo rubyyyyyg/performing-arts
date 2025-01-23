@@ -385,6 +385,7 @@ div div {
   margin: 10px 2%;
   flex-basis: 96%;
   padding: 10px;
+  max-width: 60%;
   background-color: #f5e1ba;
 }
 div div img {
@@ -426,7 +427,7 @@ footer a {
   header img {
     width: 50px;
   }
-  div#individualCard {
+  div div {
     margin: 10px 2%;
     flex-basis: 40%;
   }
@@ -441,7 +442,7 @@ footer a {
     padding: 0.5rem 10px;
     font-size: 0.9rem;
   }
-  div#individualCard {
+  div div {
     margin: 10px 2%;
     flex-basis: 18%;
   }
